@@ -1,6 +1,6 @@
-# NEIDIG 5K
+# ELGIN 5K
 
-A landing page for the Neidig Elementary School 5 K.
+A landing page for the Neidig Elementary School's Elgin 5 K.
 
 **Link to project:**
 

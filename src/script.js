@@ -1,3 +1,32 @@
+// import { Client, Databases, ID } from "appwrite";
+
+// const client = new Client()
+//     .setEndpoint('https://cloud.appwrite.io/v1')
+//     .setProject('67ed95e900328693a3d3');
+
+// const databases = new Databases(client);
+
+// const promise = databases.createDocument(
+//     '67ede05c000bfeb8e29c',
+//     '67ede06e002d4796e781',
+//     ID.unique(),
+//     { "first-name": "Tim",
+//       "last-name": "Lines",
+//       "email-address": "tim@email.com"
+//      }
+// );
+
+// promise.then(function (response) {
+//     console.log(response);
+// }, function (error) {
+//     console.log(error);
+// });
+
+
+
+
+
+// Page Formatting
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Navigation Toggle
     const createMobileNav = () => {
@@ -69,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
     countdownElement.classList.add('countdown');
     
     // Set the race date (April 19, 2025)
-    const raceDate = new Date('April 19, 2025 08:00:00').getTime();
+    const raceDate = new Date('May 17, 2025 07:00:00').getTime();
     
     // Update countdown every second
     const countdownTimer = setInterval(function() {
@@ -166,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add registration button
     const registerBtn = document.createElement('a');
-    registerBtn.href = '#';
+    registerBtn.href = 'https://docs.google.com/forms/d/e/1FAIpQLScQeTzY_Dn1wri3PODmiP4JI3GPO39NHjsCn0ENt_iIbzX4nQ/viewform?usp=header';
     registerBtn.classList.add('btn-register');
     registerBtn.textContent = 'REGISTER NOW';
     
