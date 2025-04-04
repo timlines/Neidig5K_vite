@@ -6,9 +6,15 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.6;
     color: #333;
+}
+
+p {
+     font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -22,9 +28,8 @@ ul {
 
 /* Header Styles */
 header {
-    background-color: #3F0488; /*0a2d5e*/
-    color: white;
-    padding: 10px 0;
+    background-color: #ffffff; /*0a2d5e*/
+    color: rgb(255, 255, 255);
 }
 
 .top-header {
@@ -32,8 +37,6 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
 
 .logo-container {
@@ -43,7 +46,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
 }
 
 .logo {
@@ -74,11 +76,12 @@ header {
     color: white;
     display: flex;
     padding: 10px 20px;
+    height: 52px;
 }
 
 .race-title {
     background-color: #3F0488;
-    padding: 10px 20px;
+    padding: 6px 20px;
     font-weight: bold;
     margin-right: 20px;
 }
@@ -92,14 +95,6 @@ header {
     margin: 0 15px;
 }
 
-/* Sponsor Bar */
-.sponsor-bar {
-    background-color: white;
-    color: #0a2d5e;
-    padding: 10px 20px;
-    font-weight: bold;
-    border-bottom: 1px solid #ddd;
-}
 
 /* Hero Section */
 .hero {
@@ -144,15 +139,22 @@ header {
 
 .info-box {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 30px;
+    padding: 20px;
     max-width: 450px;
     border-radius: 5px;
+    
 }
 
 .info-box h1 {
-    color: #4a7bca;
+    color: #3F0488; /*#3F0488 #4a7bca*/
     font-size: 2.5rem;
     margin-bottom: 20px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+
 }
 
 .info-box p {
@@ -160,20 +162,30 @@ header {
     font-size: 1.1rem;
 }
 
-.btn-learn-more {
+.btn-register {
     display: inline-block;
-    background-color: #0a2d5e;
+    background-color: #3F0488;
     color: white;
     padding: 12px 30px;
     font-weight: bold;
-    border-radius: 3px;
     transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
 }
 
-.btn-learn-more:hover {
+.btn-register:hover {
     background-color: #0d3b7a;
 }
 
+
+.btn-course {
+    display: inline-block;
+    background-color: #3F0488;
+    color: white;
+    padding: 12px 30px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
 /* Race Details Section */
 .race-details {
     display: flex;
@@ -193,15 +205,21 @@ header {
 }
 
 .right-column h2 {
-    color: #0a2d5e;
+    color: #3F0488;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 .right-column h3 {
-    color: #0a2d5e;
+    color: #3F0488;
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+
+.center-column {
+    width: 100%;
+    text-align: center;
+    
 }
 
 /* Footer */
@@ -240,6 +258,13 @@ footer {
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 /* Responsive Design */
 @media (max-width: 1024px) {
@@ -284,15 +309,40 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .hero {
-        height: 400px;
+    .top-header {
+        background-color: #ffffff;
+
+        height: 64.05px;
     }
+
+    .sponsor-bar-event {
+        background-color: #3F0488;
+        color: #ffffff; /*3F0488*/ 
+        width: 100%;
+        height: inherit;
+        padding: 12px 20px;
+        
+    }
+    
+    
+    .hero {
+        height: 300px;
+        
+    }
+
+    .hero-content {
+        padding: 0;
+        
+    }
+
     
     .info-box {
         max-width: 100%;
+        
     }
     
     .info-box h1 {
         font-size: 2rem;
     }
+
 }

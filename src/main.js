@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .countdown h3 {
                 text-align: center;
                 margin-bottom: 15px;
-                color: #0a2d5e;
+                color: #3F0488;
             }
             
             .countdown-timer {
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 display: block;
                 font-size: 2rem;
                 font-weight: bold;
-                color: #0a2d5e;
+                color: #3F0488;
             }
             
             .countdown-label {
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add registration button
     const registerBtn = document.createElement('a');
     registerBtn.href = 'https://docs.google.com/forms/d/e/1FAIpQLScQeTzY_Dn1wri3PODmiP4JI3GPO39NHjsCn0ENt_iIbzX4nQ/viewform?usp=header';
-    registerBtn.classList.add('btn-register');
+    registerBtn.classList.add('btn-register2');
     registerBtn.textContent = 'REGISTER NOW';
     
     if (raceDetails) {
@@ -179,10 +179,10 @@ document.addEventListener('DOMContentLoaded', function() {
         // Add CSS for register button
         const style = document.createElement('style');
         style.textContent = `
-            .btn-register {
+            .btn-register2 {
                 display: block;
-                background-color: #ffcc00;
-                color: #0a2d5e;
+                background-color: #3F0488;
+                color:rgb(255, 255, 255);
                 text-align: center;
                 padding: 15px;
                 margin-top: 20px;
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 transition: background-color 0.3s;
             }
             
-            .btn-register:hover {
+            .btn-register2:hover {
                 background-color: #e6b800;
             }
         `;
