@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add registration button
     const registerBtn = document.createElement('a');
-    registerBtn.href = 'https://docs.google.com/forms/d/e/1FAIpQLScQeTzY_Dn1wri3PODmiP4JI3GPO39NHjsCn0ENt_iIbzX4nQ/viewform?usp=header';
+    registerBtn.href = 'https://www.jotform.com/app/250964856811163';
     registerBtn.classList.add('btn-register2');
     registerBtn.textContent = 'REGISTER NOW';
     
