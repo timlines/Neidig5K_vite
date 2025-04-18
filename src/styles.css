@@ -174,7 +174,11 @@ header {
 }
 
 .btn-register:hover {
-    background-color: #0d3b7a;
+    background-color: #e6b800; /*#e6b800 #0d3b7a*/
+}
+
+.btn-course:hover {
+    background-color: #e6b800; /*#e6b800 #0d3b7a*/
 }
 
 

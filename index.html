@@ -15,12 +15,12 @@
   </head>
   <body>
     <header>
-      <div class="top-header">
+      <div class="top-header" id="top">
           <div class="logo-container">
               <img src="/public/assets/Vertical_Purple1.png" alt="Elgin ISD Logo" class="logo">
           </div>
-          <div class="main-nav">
-              <!-- <nav>
+          <!-- <div class="main-nav">
+              <nav>
                   <ul>
                       <li><a href="#">THE RACE</a></li>
                       <li><a href="#">GET INVOLVED</a></li>
@@ -31,9 +31,9 @@
                           <a href="#">SEARCH <i class="fas fa-search"></i></a>
                       </li>
                   </ul>
-              </nav> -->
+              </nav>
           </div>
-          <!-- <div class="top-right-nav">
+          <div class="top-right-nav">
               <nav>
                   <ul>
                       <li><a href="#">Athletes</a></li>
@@ -42,26 +42,27 @@
                       <li><a href="#">News and Media</a></li>
                       <li><a href="#">Shop</a></li>
                   </ul>
-              </nav> -->
-          </div>
+              </nav>
+          </div> -->
       </div>
   </header>
 
   <div class="secondary-nav">
-      <div class="race-title">ELGIN 5K</div>
+      <!-- <div class="race-title">ELGIN 5K</div> -->
        <nav>
-          <!-- <ul>
-              <li><a href="#">REGISTRATION</a></li>
-              <li><a href="#">PARTICIPANTS</a></li>
-              <li><a href="#">RESULTS</a></li>
-              <li><a href="#">FUNDRAISER MONEY</a></li>
-              <li><a href="#">PRO FIELD</a></li>
-              <li><a href="#">PRO ATHLETES</a></li>
-              <li><a href="#">VOLUNTEER</a></li>
-              <li><a href="#">TRAIN</a></li>
-              <li><a href="#">SPECIAL OLYMPICS</a></li>
-              <li><a href="#">SPONSORS</a></li>
-          </ul> -->
+          <ul>
+              <li><a href="#main">ELGIN 5K</a></li>
+              <li><a href="#registration">REGISTRATION</a></li>
+              <!-- <li><a href="#">PARTICIPANTS</a></li> -->
+              <!-- <li><a href="#">RESULTS</a></li> -->
+              <!-- <li><a href="#">FUNDRAISER MONEY</a></li> -->
+              <!-- <li><a href="#">PRO FIELD</a></li> -->
+              <!-- <li><a href="#">PRO ATHLETES</a></li> -->
+              <li><a href="#sponsors">SPONSORS</a></li>
+              <li><a href="#donate">DONATE</a></li>
+              <!-- <li><a href="#">TRAIN</a></li> -->
+              <!-- <li><a href="#">SPECIAL OLYMPICS</a></li> -->
+          </ul>
       </nav> 
   </div>
 
@@ -71,13 +72,13 @@
   </section>
 
   <section>
-    <div class="hero-content">
+    <div class="hero-content" id="main">
         <div class="info-box">
             <h1>ELGIN 5K FUNDRAISER</h1>
             <p>Join all of Elgin's elementary school PTA organizations for the first-ever Elgin 5K Run/Walk, on <b>Saturday, May 17th!</b> 
             <p>This event aims to bring the community together, demonstrate support for our youngest members, and promote the belief in "One Town, One Team, One Family." We want to show them the strength of our community firsthand.</p>
             <p>All proceeds from this event will empower teachers and families, providing the essentials and support for our young community members as they embark on a new school year filled with potential. </p>
-            <a href="https://www.jotform.com/app/250964856811163" class="btn-register">REGISTER</a>
+            <a href="#registration" class="btn-register">REGISTER</a>
         </div>
     </div>
 
@@ -125,6 +126,78 @@
         <p><b>Vendor Fair:</b> 7 AM - 12 PM</p>
         <br>
         <p> Run. Roar. Repeat!</p>
+        
+    </div>
+</section>
+
+<section class="race-details" id="registration">
+    <div class="right-column">
+        <h2>EVENT REGISTRATION</h2>
+        
+        <div>
+            <h3>ELGIN 5K</h3>
+            <h4>$35</h4>
+            <p><b>5K Run Start:</b> 7:20 am</p>
+            <p>Registration ends May 17, 2025 at 7:00 am CDT</p>
+            <a href="https://buy.stripe.com/3cscMY9fD2Bm74sdQS" class="btn-register">5K - SIGN UP</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <h3>ELGIN Kid's Fun Run</h3>
+            <h4>FREE</h4>
+            <p>Ages 1 - 12</p>
+            <p><b>Kid's Fun Run (FREE!):</b> 9:00 am</p>
+            <p>Registration ends May 17, 2025 at 7:00 am CDT</p>
+            <a href="https://buy.stripe.com/5kAdR2fE18ZKewUdQR" class="btn-register">Kids Fun Run - SIGN UP</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="sponsors">
+            <h3>5K Vendor Registration (Non - Sales) </h3>
+            <h4>$20</h4>
+            <p>Infomation/Support Vendor fee for Elgin 5K</p>
+            <p>7:00 am - 12:00 pm</p>
+            <p>Registration ends May 17, 2025 at 12:00 pm CDT</p>
+            <a href="https://buy.stripe.com/8wM5kwdvT6RC4Wk28b" class="btn-register">5K Vendor (Non - Sales)  - SIGN UP</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div>
+            <h3>5K Vendor Registration (Sales)</h3>
+            <h4>$40</h4>
+            <p>Concession/Retail Vendor Fee at Elgin 5K</p>
+            <p>7:00 am - 12:00 pm</p>
+            <p>Registration ends May 17, 2025 at 12:00 pm CDT</p>
+            <a href="https://buy.stripe.com/6oEaEQ2Rfgsc0G4aEI" class="btn-register">5K Vendor (Sales)  - SIGN UP</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="donate">
+            <h3>Neidig PTA Donation</h3>
+            <h4>Any Donation Amount</h4>
+            <p>Donate to support the Neidig Elementary PTA</p>
+            <a href="https://buy.stripe.com/3cs6oA8bzek40G4dQV" class="btn-register">DONATE</a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        
+        
         
     </div>
 </section>

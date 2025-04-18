@@ -3,35 +3,35 @@
 // Page Formatting
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile Navigation Toggle
-    const createMobileNav = () => {
-        const header = document.querySelector('header');
-        const mainNav = document.querySelector('.main-nav');
-        const topRightNav = document.querySelector('.top-right-nav');
+    // const createMobileNav = () => {
+    //     const header = document.querySelector('header');
+    //     const mainNav = document.querySelector('.main-nav');
+    //     const topRightNav = document.querySelector('.top-right-nav');
         
-        // Create mobile menu button
-        const mobileMenuBtn = document.createElement('button');
-        mobileMenuBtn.classList.add('mobile-menu-btn');
-        mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
-        header.insertBefore(mobileMenuBtn, mainNav);
+    //     // Create mobile menu button
+    //     const mobileMenuBtn = document.createElement('button');
+    //     mobileMenuBtn.classList.add('mobile-menu-btn');
+    //     mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+    //     header.insertBefore(mobileMenuBtn, mainNav);
         
-        // Toggle mobile menu
-        mobileMenuBtn.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
-            topRightNav.classList.toggle('active');
-            mobileMenuBtn.classList.toggle('active');
+    //     // Toggle mobile menu
+    //     mobileMenuBtn.addEventListener('click', () => {
+    //         mainNav.classList.toggle('active');
+    //         topRightNav.classList.toggle('active');
+    //         mobileMenuBtn.classList.toggle('active');
             
-            if (mobileMenuBtn.classList.contains('active')) {
-                mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
-            } else {
-                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
-            }
-        });
-    };
+    //         if (mobileMenuBtn.classList.contains('active')) {
+    //             mobileMenuBtn.innerHTML = '<i class="fas fa-times"></i>';
+    //         } else {
+    //             mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+    //         }
+    //     });
+    // };
     
     // Only create mobile nav for smaller screens
-    if (window.innerWidth < 1024) {
-        createMobileNav();
-    }
+    // if (window.innerWidth < 1024) {
+    //     createMobileNav();
+    // }
     
     // Handle window resize
     window.addEventListener('resize', () => {
@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Add registration button
     const registerBtn = document.createElement('a');
-    registerBtn.href = 'https://www.jotform.com/app/250964856811163';
+    registerBtn.href = '#registration';
     registerBtn.classList.add('btn-register2');
     registerBtn.textContent = 'REGISTER NOW';
     
